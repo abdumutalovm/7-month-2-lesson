@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const usersFromStore = useSelector(state => state);
   const [users, setUsers] = useState([]);
   const dispatch = useDispatch();
   const [age, setAge] = useState(0);
